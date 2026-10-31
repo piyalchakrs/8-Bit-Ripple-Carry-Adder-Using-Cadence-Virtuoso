@@ -22,19 +22,19 @@ The project follows a **semi-custom VLSI design flow**, covering schematic captu
 
 For each bit position \(i\), the full-adder outputs are defined by:
 
-\[
+$$\[
 S_i = A_i \oplus B_i \oplus C_i
-\]
+\]$$
 
-\[
+$$\[
 C_{i+1} = A_iB_i + C_i(A_i \oplus B_i)
-\]
+\]$$
 
 The complete adder performs:
 
-\[
+$$\[
 \{C_{out}, S[7:0]\} = A[7:0] + B[7:0] + C_{in}
-\]
+\]$$
 
 ## Pre-Layout Design & Simulation
 
@@ -66,9 +66,9 @@ The following waveform captures show the pre-layout transient simulation results
 
 Measured pre-layout average power:
 
-\[
+$$\[
 P_{avg,pre} = 20.12\ \mu W
-\]
+\]$$
 
 **Worst-case propagation delay**
 
@@ -76,9 +76,9 @@ P_{avg,pre} = 20.12\ \mu W
 
 Measured pre-layout worst-case propagation delay:
 
-\[
+$$\[
 t_{pd,pre} = 22.43\ ns
-\]
+\]$$
 
 ## Post-Layout Verification & Analysis
 
@@ -132,9 +132,9 @@ The post-layout waveforms were obtained from transient simulation of the RCX-ext
 
 Measured post-layout average power:
 
-\[
+$$\[
 P_{avg,post} = 23.29\ \mu W
-\]
+\]$$
 
 **Worst-case propagation delay**
 
@@ -142,9 +142,9 @@ P_{avg,post} = 23.29\ \mu W
 
 Measured post-layout worst-case propagation delay:
 
-\[
+$$\[
 t_{pd,post} = 22.14\ ns
-\]
+\]$$
 
 ## Pre-Layout vs. Post-Layout Comparison
 
